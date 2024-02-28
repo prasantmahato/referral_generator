@@ -28,7 +28,7 @@ const Section = ({ formData, handleCopyClick }) => {
           </button>
         </div>
           <textarea
-            rows="25"
+            rows="20"
             cols="60"
             value={`Hi ${username},
 Hope you are doing good.

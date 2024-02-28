@@ -3,6 +3,7 @@ import "./App.css";
 import Form from "./components/Form";
 import UserDetailsForm from "./components/UserDetailsForm";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 function App() {
     const [form, setForm] = useState({
@@ -101,6 +102,7 @@ ${userDetails.name}`;
                     />
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }
