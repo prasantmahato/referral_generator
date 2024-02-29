@@ -31,6 +31,11 @@ const Footer = () => (
                     &copy; 2024{" "}
                     <span className="orange">Referral Generator.</span>
                 </p>
+                <p className="text-center">
+                    Discover a lightweight app created by{" "}
+                    <a href="https://www.prasantmahato.github.io/">Prasant</a>{" "}
+                    to simplify referral requests.
+                </p>
             </footer>
         </div>
     </>
