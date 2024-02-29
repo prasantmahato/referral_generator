@@ -21,6 +21,7 @@ const Footer = () => (
                             <a
                                 href={social.href}
                                 className="nav-link px-2 text-decoration-none"
+                                target="_blank"
                             >
                                 {social.title}
                             </a>
